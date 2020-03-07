@@ -16,11 +16,13 @@ public class MatrixColumn {
     }
 
     public void insert(ValueNode value) {
-
+        firstPointer = first;
+        for (int i = 0 -> value.getRow(); i++){
+            firstPointer = firstPointer.getNextRow();
+        }
     }
 
     public int get(int position) {
         return 0;
     }
-
 }

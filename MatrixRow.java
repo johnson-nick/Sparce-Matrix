@@ -16,7 +16,10 @@ public class MatrixRow {
     }
 
     public void insert(ValueNode value) {
-
+        rowPointer = first;
+        for (int i = 0 -> value.getColumn; i++){
+            rowPointer = rowPointer.getNextColumn();
+        }
     }
 
     public int get(int position) {
